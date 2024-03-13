@@ -4,7 +4,6 @@ import pages from "../../constants/Pages";
 import navLogo from "../../assets/nav-logo.jpg";
 
 const Header = () => {
-  console.log(pages["home"].path);
   return (
     <header>
       <nav className="container grid nav-bar">
