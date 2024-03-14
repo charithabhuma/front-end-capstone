@@ -1,13 +1,13 @@
 import Hero from "./Hero";
 import OurStory from "./OurStory";
 import Testimonials from "./Testimonials";
-import WeekednSpecials from "./WeekendSpecials";
+import Menu from "./Menu";
 
 const Home = () => {
   return (
     <>
       <Hero />
-      <WeekednSpecials />
+      <Menu />
       <Testimonials />
       <OurStory />
     </>
