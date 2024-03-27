@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-import OurStory from "./OurStory";
+import AboutUs from "./AboutUs";
 import Testimonials from "./Testimonials";
 import Menu from "./Menu";
 
@@ -9,7 +9,7 @@ const Home = () => {
       <Hero />
       <Menu />
       <Testimonials />
-      <OurStory />
+      <AboutUs />
     </>
   );
 };
