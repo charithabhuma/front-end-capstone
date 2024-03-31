@@ -4,8 +4,8 @@ import MarioAdrainB from "../../../Images/Mario and Adrian b.jpg";
 
 const AboutUs = () => {
   return (
-    <div class="container grid about">
-      <div class="aboutText">
+    <div className="container grid about">
+      <div className="aboutText">
         <h1>Little Lemon</h1>
         <h2>Chicago</h2>
         <p>
@@ -20,9 +20,9 @@ const AboutUs = () => {
           officia consequat duis enim velit mollit.
         </p>
       </div>
-      <div class="MarioAdrain">
-        <img class="image1" src={MarioAdrainB} alt="Mario and Adrian B" />
-        <img class="image2" src={MarioAdrainA} alt="Mario and Adrian A" />
+      <div className="MarioAdrain">
+        <img className="image1" src={MarioAdrainB} alt="Mario and Adrian B" />
+        <img className="image2" src={MarioAdrainA} alt="Mario and Adrian A" />
       </div>
     </div>
   );

@@ -37,10 +37,8 @@ h2 {
 
 form {
   max-width: 28.125rem;
-  padding: 3rem 2rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
 }
 
 label {
