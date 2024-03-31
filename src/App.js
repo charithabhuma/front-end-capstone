@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Layout />
+        <Layout >
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path="/about" element={<PageNotFound />} />
@@ -19,6 +19,7 @@ function App() {
           <Route path="/login" element={<PageNotFound />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
+        </Layout>
       </BrowserRouter>
     </div>
   );
